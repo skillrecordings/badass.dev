@@ -3,7 +3,7 @@ import * as React from 'react'
 const FORM_ID = '123456'
 
 type ConvertkitSubscribeFormProps = {
-  onSubmit: () => void
+  onSubmit?: () => void
 }
 
 const ConvertkitSubscribeForm: React.FC<ConvertkitSubscribeFormProps> = ({
