@@ -8,7 +8,7 @@ type ConvertkitSubscribeFormProps = {
 
 const ConvertkitSubscribeForm: React.FC<ConvertkitSubscribeFormProps> = ({
   children,
-  onSubmit,
+  onSubmit = () => {},
 }) => {
   return (
     <div id="subscribe">
